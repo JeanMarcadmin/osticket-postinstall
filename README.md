@@ -16,6 +16,10 @@ This document provides best practices and configuration steps immediately **afte
 
 ## ⚙️ Admin Dashboard Configuration
 
+<p>
+<img src="https://github.com/user-attachments/assets/c7fe9d98-4bde-498b-8712-85a01ea62e6f"
+
+
 ### 1. Access the Admin Panel
 
 - Go to: `http://localhost/osticket/scp/`
@@ -23,8 +27,10 @@ This document provides best practices and configuration steps immediately **afte
 
 ---
 
-### 2. Rename and Secure the `ost-config.php` File
-
+### 2. Rename and Secure the `ost-config.php` 
+<p>
+<img src="https://github.com/user-attachments/assets/c7fe9d98-4bde-498b-8712-85a01ea62e6f"
+  
 - Navigate to: `C:\inetpub\wwwroot\osticket\include\ost-config.php`
 - Right-click → **Properties** → **Security**
 - Remove `Everyone` or change permissions to **Read Only** for IIS/IUSR
@@ -32,6 +38,9 @@ This document provides best practices and configuration steps immediately **afte
 ---
 
 ### 3. Remove Setup Directory
+
+<p>
+<img src="https://github.com/user-attachments/assets/c7fe9d98-4bde-498b-8712-85a01ea62e6f"
 
 - Delete the `setup` folder from `C:\inetpub\wwwroot\osticket\`
 - This prevents re-installation or unauthorized access
